@@ -1,0 +1,61 @@
+body{
+
+font-family:sans-serif;
+text-align:right;
+background:url(nature.jpg);
+}
+h1{
+	color:white;
+	
+	padding:10px;
+}
+
+a{
+	color:white;
+	font-family:sans-serif;
+	padding:10px;
+	text-align:right;
+	text-decoration:none;
+}
+p{
+	background:#006644;
+	color:white;
+	padding:10px;
+}
+#nav{
+	width:1366px;
+	height:200px;
+	background:url(.jpg);
+	background-size:cover;
+	text-align:right;
+   
+}
+#nav_wrapper{
+	height:30px;
+	width:650px;
+	background:white;
+	margin-left:auto;
+	margin-top:00px;
+	opacity:0.7;
+	filter:alpha(opacity=90);
+	text-color:white;
+	
+	
+	
+}
+#nav_wrapper ul{
+	margin-top:00px;
+}
+
+
+#nav_wrapper ul li{
+	list-style:none;
+	display:inline;
+	font-weight:bold;
+	padding:20px;
+	margin-top:10px;
+	text-color:white;
+	
+	
+	
+}

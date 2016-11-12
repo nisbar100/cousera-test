@@ -1,0 +1,44 @@
+h1{
+	font-color:red;
+}
+body{
+	background:url(loginwall.jpg);
+	font-family:arial;
+	font-color:white;
+	
+}
+h3{
+	font-family:sans-serif;
+}
+a{
+	color:white;
+	padding:10px;
+	text-align:right;
+	font-family:sans-serif;
+	text-decoration:none;
+}
+form{
+	width:100px;
+	height:35px;
+	background:transparent;
+	border:1px solid black;
+	position:absolute;
+	left:40%;
+	top:30%;
+	transform: translateX(-50%) translateY(-50%);
+	cursor:pointer;
+	opacity:0.7;
+	width:350px;
+	height:200px;
+	
+	
+	margin-top:5px;
+	margin-left:15px;
+	
+	
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}​

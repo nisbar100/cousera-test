@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>ANIMATED LOGIN FORM</title>
+
+		<link rel="stylesheet" type="text/css" href="login.css">
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+
+<body>
+<h3>
+      
+	<a href="index.html" STYLE="TEXT-DECORATION:NONE">HOME</a>
+     <a href="career.html"STYLE="TEXT-DECORATION:NONE">CAREERS</a>
+    <a href="hierarchy.html"STYLE="TEXT-DECORATION:NONE">PRODUCTS</a>
+    <a href="products.html"STYLE="TEXT-DECORATION:NONE">CONTACTS</a>
+	 <a href="login.html"STYLE="TEXT-DECORATION:NONE">LOGIN</a>
+	
+	
+</h3>	
+<h2> </h2>
+
+	
+
+         <section id="form_before_launch">
+		 
+		  <p>Log in</p>
+		     
+			 <form method="post" onsubmit="return false">
+			 
+			    <div>
+				     <div>
+					      <input type="text" id="username" placeholder="Username"/>
+					 </div>	  
+		              <div>
+					      <input type="password" id="password" placeholder="Password"/>
+					 </div>	
+					 <div id="btn">
+					      <input type="submit" id="submit" value="Log In"/>
+					 </div>	
+				</div>
+			</form>	 
+		 
+		 </section>
+</body>
+
+</html>	
+<script>
+$(document).ready(function(){
+
+     $("#form_before_launch").click(function(){
+         $(this).animate({height:"250px",width:"400px"});
+		 $(this).children("p").animate({fontSize:"25px"});
+		 $("#form").delay(500).fadeIn();
+	}
+	)
+	$("#submit").click(function(){
+	var u_name = $("#username").val();
+	var pass = $("#password").val();
+	if(u_name !="" && pass !=""){
+
+	$("#form_before_launch").fadeOut();
+	$("h2").fadeIn();
+	$("h2").html("WELCOME "+u_name);
+	//$("h2").animate({marginTop:"200px"});
+	$("h2").animate({marginLeft:"500px"});
+	
+	}
+	}
+	)
+}
+
+)
+
+
+</script>

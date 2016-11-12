@@ -1,0 +1,77 @@
+body{
+	background:url(nature.jpg) no-repeat center center fixed;
+	background-size:100% 100%;
+	
+}
+h1{
+	color:white;
+}
+h5{
+	COLOR:WHITE;
+}
+#form_before_launch{
+	width:100px;
+	height:35px;
+	background:transparent;
+	border:1px solid red;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%) translateY(-50%);
+	cursor:pointer;
+	opacity:0.7;
+	
+}
+#form_before_launch > p{
+	color:white;
+	font-family:sans-serif;
+	text-align:center;
+	line-height:5px;
+	
+	
+	
+}
+#form{
+	width:350px;
+	height:300px;
+	
+	
+	margin-top:5px;
+	margin-left:15px;
+	
+	
+}
+a{
+	color:white;
+	padding:10px;
+	text-align:right;
+	text-decoration:none;
+}
+#form > div > div{
+	width:350px;
+	height:300px;
+	margin-bottom:10px;
+	
+}
+#form > div > div > input {
+	width:250px;
+	height:35px;
+	background: transparent;
+	color: white;
+	border-radius: 5px;
+	padding:5px;
+	font-size:20px;
+	font-family:sans-serif;
+	
+	
+}
+#form > div > #btn {
+	width:100px;
+	height:35px;
+	margin:0px auto;
+}
+#form > div > #btn >#submit {
+	width:100px;
+	height:35px;
+	
+}
